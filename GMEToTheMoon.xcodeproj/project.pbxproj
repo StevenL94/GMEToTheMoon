@@ -14,6 +14,7 @@
 		5659A78626E1837A00797CD4 /* LaunchStonkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659A78526E1837A00797CD4 /* LaunchStonkView.swift */; };
 		5659A78826E184E300797CD4 /* BuyGMEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659A78726E184E300797CD4 /* BuyGMEView.swift */; };
 		5659A78F26E185F200797CD4 /* Stonk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659A78E26E185F200797CD4 /* Stonk.swift */; };
+		5659A79326E1900200797CD4 /* RobinhoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659A79226E1900200797CD4 /* RobinhoodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5659A78526E1837A00797CD4 /* LaunchStonkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchStonkView.swift; sourceTree = "<group>"; };
 		5659A78726E184E300797CD4 /* BuyGMEView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyGMEView.swift; sourceTree = "<group>"; };
 		5659A78E26E185F200797CD4 /* Stonk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stonk.swift; sourceTree = "<group>"; };
+		5659A79226E1900200797CD4 /* RobinhoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobinhoodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				5659A78526E1837A00797CD4 /* LaunchStonkView.swift */,
+				5659A79226E1900200797CD4 /* RobinhoodView.swift */,
 				5659A78726E184E300797CD4 /* BuyGMEView.swift */,
 			);
 			path = Views;
@@ -166,6 +169,7 @@
 				5659A78626E1837A00797CD4 /* LaunchStonkView.swift in Sources */,
 				5659A78F26E185F200797CD4 /* Stonk.swift in Sources */,
 				5659A77826E17D1E00797CD4 /* ContentView.swift in Sources */,
+				5659A79326E1900200797CD4 /* RobinhoodView.swift in Sources */,
 				5659A77626E17D1E00797CD4 /* GMEToTheMoonApp.swift in Sources */,
 				5659A78826E184E300797CD4 /* BuyGMEView.swift in Sources */,
 			);

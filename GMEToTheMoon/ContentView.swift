@@ -15,10 +15,9 @@ struct ContentView: View {
                     .bold()
                 Spacer()
                 NavigationLink(
-                    destination: LaunchStonkView(),
+                    destination: LaunchStonkView(brokers: Stonk.sampleData()),
                     label: {
                         HStack {
-                            //                        Image(systemName: "airplane.circle")
                             Text("🚀")
                                 .font(.largeTitle)
                             Text("Ready To Launch")
