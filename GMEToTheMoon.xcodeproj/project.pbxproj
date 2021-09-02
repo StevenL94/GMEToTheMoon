@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5659A77626E17D1E00797CD4 /* GMEToTheMoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659A77526E17D1E00797CD4 /* GMEToTheMoonApp.swift */; };
+		5659A77826E17D1E00797CD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659A77726E17D1E00797CD4 /* ContentView.swift */; };
+		5659A77A26E17D1F00797CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5659A77926E17D1F00797CD4 /* Assets.xcassets */; };
+		5659A77D26E17D1F00797CD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5659A77C26E17D1F00797CD4 /* Preview Assets.xcassets */; };
+		5659A78626E1837A00797CD4 /* LaunchStonkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659A78526E1837A00797CD4 /* LaunchStonkView.swift */; };
+		5659A78826E184E300797CD4 /* BuyGMEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659A78726E184E300797CD4 /* BuyGMEView.swift */; };
+		5659A78F26E185F200797CD4 /* Stonk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659A78E26E185F200797CD4 /* Stonk.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5659A77226E17D1E00797CD4 /* GMEToTheMoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMEToTheMoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5659A77526E17D1E00797CD4 /* GMEToTheMoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMEToTheMoonApp.swift; sourceTree = "<group>"; };
+		5659A77726E17D1E00797CD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5659A77926E17D1F00797CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5659A77C26E17D1F00797CD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5659A77E26E17D1F00797CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5659A78526E1837A00797CD4 /* LaunchStonkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchStonkView.swift; sourceTree = "<group>"; };
+		5659A78726E184E300797CD4 /* BuyGMEView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyGMEView.swift; sourceTree = "<group>"; };
+		5659A78E26E185F200797CD4 /* Stonk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stonk.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5659A76F26E17D1E00797CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5659A76926E17D1E00797CD4 = {
+			isa = PBXGroup;
+			children = (
+				5659A77426E17D1E00797CD4 /* GMEToTheMoon */,
+				5659A77326E17D1E00797CD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5659A77326E17D1E00797CD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5659A77226E17D1E00797CD4 /* GMEToTheMoon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5659A77426E17D1E00797CD4 /* GMEToTheMoon */ = {
+			isa = PBXGroup;
+			children = (
+				5659A77526E17D1E00797CD4 /* GMEToTheMoonApp.swift */,
+				5659A77726E17D1E00797CD4 /* ContentView.swift */,
+				5659A78B26E1856E00797CD4 /* Models */,
+				5659A78426E1835A00797CD4 /* Views */,
+				5659A77926E17D1F00797CD4 /* Assets.xcassets */,
+				5659A77E26E17D1F00797CD4 /* Info.plist */,
+				5659A77B26E17D1F00797CD4 /* Preview Content */,
+			);
+			path = GMEToTheMoon;
+			sourceTree = "<group>";
+		};
+		5659A77B26E17D1F00797CD4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5659A77C26E17D1F00797CD4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5659A78426E1835A00797CD4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5659A78526E1837A00797CD4 /* LaunchStonkView.swift */,
+				5659A78726E184E300797CD4 /* BuyGMEView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5659A78B26E1856E00797CD4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5659A78E26E185F200797CD4 /* Stonk.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5659A77126E17D1E00797CD4 /* GMEToTheMoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5659A78126E17D1F00797CD4 /* Build configuration list for PBXNativeTarget "GMEToTheMoon" */;
+			buildPhases = (
+				5659A76E26E17D1E00797CD4 /* Sources */,
+				5659A76F26E17D1E00797CD4 /* Frameworks */,
+				5659A77026E17D1E00797CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMEToTheMoon;
+			productName = GMEToTheMoon;
+			productReference = 5659A77226E17D1E00797CD4 /* GMEToTheMoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5659A76A26E17D1E00797CD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5659A77126E17D1E00797CD4 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 5659A76D26E17D1E00797CD4 /* Build configuration list for PBXProject "GMEToTheMoon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5659A76926E17D1E00797CD4;
+			productRefGroup = 5659A77326E17D1E00797CD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5659A77126E17D1E00797CD4 /* GMEToTheMoon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5659A77026E17D1E00797CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5659A77D26E17D1F00797CD4 /* Preview Assets.xcassets in Resources */,
+				5659A77A26E17D1F00797CD4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5659A76E26E17D1E00797CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5659A78626E1837A00797CD4 /* LaunchStonkView.swift in Sources */,
+				5659A78F26E185F200797CD4 /* Stonk.swift in Sources */,
+				5659A77826E17D1E00797CD4 /* ContentView.swift in Sources */,
+				5659A77626E17D1E00797CD4 /* GMEToTheMoonApp.swift in Sources */,
+				5659A78826E184E300797CD4 /* BuyGMEView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5659A77F26E17D1F00797CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5659A78026E17D1F00797CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5659A78226E17D1F00797CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GMEToTheMoon/Preview Content\"";
+				DEVELOPMENT_TEAM = 64VRBWQ4UQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GMEToTheMoon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevenlee.GMEToTheMoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5659A78326E17D1F00797CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GMEToTheMoon/Preview Content\"";
+				DEVELOPMENT_TEAM = 64VRBWQ4UQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GMEToTheMoon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevenlee.GMEToTheMoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5659A76D26E17D1E00797CD4 /* Build configuration list for PBXProject "GMEToTheMoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5659A77F26E17D1F00797CD4 /* Debug */,
+				5659A78026E17D1F00797CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5659A78126E17D1F00797CD4 /* Build configuration list for PBXNativeTarget "GMEToTheMoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5659A78226E17D1F00797CD4 /* Debug */,
+				5659A78326E17D1F00797CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5659A76A26E17D1E00797CD4 /* Project object */;
+}
