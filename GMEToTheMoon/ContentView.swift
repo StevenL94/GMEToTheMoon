@@ -11,9 +11,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
+                Spacer()
                 Text("🦍 Welcome! Ape 🦍")
                     .bold()
-                Spacer()
                 NavigationLink(
                     destination: LaunchStonkView(brokers: Stonk.sampleData()),
                     label: {
