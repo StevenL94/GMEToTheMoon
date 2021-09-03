@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct RobinhoodView: View {
     var body: some View {
@@ -17,12 +18,20 @@ struct RobinhoodView: View {
                 .scaledToFit()
                 .cornerRadius(25)
                 .padding()
-            Image("vlad")
-                .resizable()
-                .scaledToFit()
+//            VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: "kennyg", withExtension: "mp4")!))
+//                .aspectRatio(contentMode: .fill)
+//                .frame(width: 360, height: 200)
+//                .cornerRadius(25)
+//            Image("vlad")
+//                .resizable()
+//                .scaledToFit()
+//                .cornerRadius(25)
+//                .padding()
+//                .opacity(0.5)
+            VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: "vlad", withExtension: "mp4")!))
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 360, height: 200)
                 .cornerRadius(25)
-                .padding()
-                .opacity(0.5)
             
         }
             .navigationTitle("SHF_ERR")

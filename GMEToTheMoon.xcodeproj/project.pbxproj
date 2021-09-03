@@ -15,6 +15,7 @@
 		5659A78826E184E300797CD4 /* BuyGMEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659A78726E184E300797CD4 /* BuyGMEView.swift */; };
 		5659A78F26E185F200797CD4 /* Stonk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659A78E26E185F200797CD4 /* Stonk.swift */; };
 		5659A79326E1900200797CD4 /* RobinhoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659A79226E1900200797CD4 /* RobinhoodView.swift */; };
+		565CDE4E26E1A9F600EF5EAB /* vlad.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 565CDE4C26E1A9F600EF5EAB /* vlad.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5659A78726E184E300797CD4 /* BuyGMEView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyGMEView.swift; sourceTree = "<group>"; };
 		5659A78E26E185F200797CD4 /* Stonk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stonk.swift; sourceTree = "<group>"; };
 		5659A79226E1900200797CD4 /* RobinhoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobinhoodView.swift; sourceTree = "<group>"; };
+		565CDE4C26E1A9F600EF5EAB /* vlad.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vlad.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				5659A77526E17D1E00797CD4 /* GMEToTheMoonApp.swift */,
+				565CDE4C26E1A9F600EF5EAB /* vlad.mp4 */,
 				5659A77726E17D1E00797CD4 /* ContentView.swift */,
 				5659A78B26E1856E00797CD4 /* Models */,
 				5659A78426E1835A00797CD4 /* Views */,
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5659A77D26E17D1F00797CD4 /* Preview Assets.xcassets in Resources */,
+				565CDE4E26E1A9F600EF5EAB /* vlad.mp4 in Resources */,
 				5659A77A26E17D1F00797CD4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
