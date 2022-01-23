@@ -8,30 +8,46 @@
 import SwiftUI
 
 struct LaunchStonkView: View {
-    var brokers: [Stonk]
     var body: some View {
-        List(brokers) { current in
-            if current.source == "RobinDaHood" {
-                NavigationLink(
-                    destination: RobinhoodView(),
-                    label: {
-                        Text(current.source)
-                    })
-            }
-            else {
-                NavigationLink(
-                    destination: BuyGMEView(),
-                    label: {
-                        Text(current.source)
-                    })
-            }
+        VStack {
+            NavigationLink(
+                destination: BuyGMEView(brokers: Stonk.sampleData()),
+                label: {
+                    HStack {
+                        Text("Buy")
+                            .bold()
+                            .foregroundColor(.white)
+                        Text("🚀🚀🚀")
+                            .font(.largeTitle)
+                            .foregroundColor(.white)
+                    }
+                    .padding(20)
+                    .background(Color.green)
+                    .cornerRadius(10.0)
+                })
+            NavigationLink(
+                destination: SellGMEView(),
+                label: {
+                    HStack {
+                        Text("Sell")
+                            .bold()
+                            .foregroundColor(.white)
+                        Text("🚀🚀🚀")
+                            .font(.largeTitle)
+                            .foregroundColor(.white)
+                            .rotationEffect(Angle(degrees: 180.0))
+                    }
+                    .padding(20)
+                    .background(Color.red)
+                    .cornerRadius(10.0)
+                })
         }
-        .navigationTitle("To The Moon 🌕")
+        .navigationTitle("Moon?")
     }
 }
 
 struct LaunchStonkView_Previews: PreviewProvider {
     static var previews: some View {
-        LaunchStonkView(brokers: Stonk.sampleData())
+        LaunchStonkView()
     }
 }

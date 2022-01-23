@@ -15,7 +15,7 @@ struct ContentView: View {
                 Text("🦍 Welcome! Ape 🦍")
                     .bold()
                 NavigationLink(
-                    destination: LaunchStonkView(brokers: Stonk.sampleData()),
+                    destination: LaunchStonkView(),
                     label: {
                         HStack {
                             Text("🚀")
@@ -32,10 +32,15 @@ struct ContentView: View {
                         .cornerRadius(10.0)
                     })
                 Spacer()
-                Text("💎")
-                    .font(.largeTitle)
-                Text("🙌")
-                    .font(.largeTitle)
+                NavigationLink(destination: DFVView(), label: {
+                    VStack {
+                        Text("💎")
+                            .font(.largeTitle)
+                        Text("🙌")
+                            .font(.largeTitle)
+                    }
+                })
+                
                 Link(destination: URL(string: "https://www.gamestop.com")!) {
                     HStack {
                         Text("Game")
@@ -53,7 +58,7 @@ struct ContentView: View {
                     .font(.caption2)
                     .fontWeight(.bold)
             }
-            .navigationTitle("NYSE: GME 🚀🚀🚀")
+            .navigationTitle("🚀GME🚀")
         }
     }
 }

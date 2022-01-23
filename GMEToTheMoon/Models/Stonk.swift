@@ -14,6 +14,6 @@ struct Stonk: Identifiable {
 
 extension Stonk {
     static func sampleData() -> [Stonk]{
-        return [Stonk(source: "E*TRADE"), Stonk(source: "Charles Schwab"), Stonk(source:"RobinDaHood"), Stonk(source: "Webull"), Stonk(source: "IBKR")]
+        return [Stonk(source: "Charles Schwab"), Stonk(source: "E*TRADE"), Stonk(source:"IBKR"), Stonk(source: "RobinDaHood"), Stonk(source: "Webull")]
     }
 }
