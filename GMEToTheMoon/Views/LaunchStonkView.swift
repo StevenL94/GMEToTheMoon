@@ -17,7 +17,7 @@ struct LaunchStonkView: View {
                         Text("Buy")
                             .bold()
                             .foregroundColor(.white)
-                        Text("🚀🚀🚀")
+                        Text("🚀📈")
                             .font(.largeTitle)
                             .foregroundColor(.white)
                     }
@@ -32,10 +32,9 @@ struct LaunchStonkView: View {
                         Text("Sell")
                             .bold()
                             .foregroundColor(.white)
-                        Text("🚀🚀🚀")
+                        Text("🧻📉")
                             .font(.largeTitle)
                             .foregroundColor(.white)
-                            .rotationEffect(Angle(degrees: 180.0))
                     }
                     .padding(20)
                     .background(Color.red)

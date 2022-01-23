@@ -2,38 +2,36 @@
 //  BuyGMEView.swift
 //  GMEToTheMoon
 //
-//  Created by Steven Lee on 9/2/21.
+//  Created by Steven Lee on 1/23/22.
 //
 
 import SwiftUI
 
 struct BuyGMEView: View {
-
+    var brokers: [Stonk]
     var body: some View {
-        ZStack {
-            Image("rc")
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .edgesIgnoringSafeArea(.bottom)
-                .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
-            ZStack {
-                VStack {
-                    Spacer()
-//                    Spacer()
-                    Text("WE OWN THE FLOAT")
-                        .font(.largeTitle)
-                        .fontWeight(.bold)
-                        .foregroundColor(.white)
-//                    Spacer()
-                }
+        List(brokers) { current in
+            if current.source == "RobinDaHood" {
+                NavigationLink(
+                    destination: RobinhoodView(),
+                    label: {
+                        Text(current.source)
+                    })
+            }
+            else {
+                NavigationLink(
+                    destination: BetterBrokerView(),
+                    label: {
+                        Text(current.source)
+                    })
             }
         }
-            .navigationTitle("Buy GME")
+        .navigationTitle("To The Moon 🌕")
     }
 }
 
 struct BuyGMEView_Previews: PreviewProvider {
     static var previews: some View {
-        BuyGMEView()
+        BuyGMEView(brokers: Stonk.sampleData())
     }
 }
