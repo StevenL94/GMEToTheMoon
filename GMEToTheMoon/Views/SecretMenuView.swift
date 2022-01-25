@@ -27,8 +27,10 @@ struct SecretMenuView: View {
                     if !username.isEmpty {
                         // checkmark
                         Image(systemName: "checkmark.circle.fill")
+                            .foregroundColor(.green)
                     } else {
                         Image(systemName: "xmark.circle.fill")
+                            .foregroundColor(.red)
                     }
                 }
                 HStack {
@@ -37,8 +39,10 @@ struct SecretMenuView: View {
                         .padding()
                     if !password.isEmpty {
                         Image(systemName: "checkmark.circle.fill")
+                            .foregroundColor(.green)
                     } else {
                         Image(systemName: "xmark.circle.fill")
+                            .foregroundColor(.red)
                     }
                 }
                 VStack {
@@ -69,7 +73,9 @@ struct SecretMenuView: View {
                     }
                     if userCreated {
                         Text("User created sucessfully.")
+                            .foregroundColor(.green)
                     }
+                    Spacer()
                 }
             }
         }
