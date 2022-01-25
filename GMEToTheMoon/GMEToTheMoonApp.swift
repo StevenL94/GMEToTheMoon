@@ -11,7 +11,7 @@ import SwiftUI
 struct GMEToTheMoonApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(users: [])
         }
     }
 }

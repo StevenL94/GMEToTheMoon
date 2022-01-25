@@ -14,7 +14,7 @@ struct DFVView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .edgesIgnoringSafeArea(.bottom)
-                .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
+                .opacity(0.8)
             ZStack {
                 VStack {
                     Spacer()

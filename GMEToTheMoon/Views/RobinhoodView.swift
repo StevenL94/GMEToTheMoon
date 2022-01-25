@@ -30,11 +30,11 @@ struct RobinhoodView: View {
 //                .opacity(0.5)
             VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: "vlad", withExtension: "mp4")!))
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 360, height: 200)
+                .frame(width: 390, height: 200)
                 .cornerRadius(25)
             
         }
-            .navigationTitle("SHF_ERR")
+            .navigationTitle("RobinDaHood")
     }
 }
 
